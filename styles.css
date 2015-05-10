@@ -1,0 +1,67 @@
+body {
+  height: 100%;
+}
+
+#main {
+  background-color: #2ecc71;
+  height: 40em;
+  margin: 0 auto;
+}
+
+#header {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+#navbar {
+  position: fixed;
+  width: 97%;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  background-color:rgba(44, 62, 80,0.5);
+}
+
+#navbar p {
+  float: left;
+  margin-left: 0.5em;
+}
+
+li {
+  display: inline;
+  float: right;
+  margin-right: 0.5em;
+  text-decoration: none;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+  color: yellow;
+}
+
+#try {
+  margin-top: 4em;
+  text-align: center;
+}
+
+#header-container {
+  margin-top: 4em;
+  width: 100%;
+}
+
+#my_image {
+  border: 0.2em solid #00C957;
+  text-align: center;
+  background-image: url('http://th01.deviantart.net/fs71/PRE/i/2013/339/4/1/silver_knight_by_rizarizis-d6ww9zt.png');
+  background-position: center;
+  background-size: 7em;
+  width: 100%;
+  margin: 0 auto;
+  height: 7em;
+  width: 7em;
+  border-radius: 100%;
+  }
