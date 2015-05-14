@@ -18,7 +18,6 @@ body {
 } */
 
 #navbar {
-  position: fixed;
   width: 50%;
   height: 2.5em;
   right: 0;
@@ -32,18 +31,14 @@ body {
   padding: 0;
 }
 
-li {
+#navbar li {
   display: inline;
   margin: 0 0.25em 0 0.25em;
   text-decoration: none;
 }
 
-li #projects {
-
-}
-
 a:link {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 a {
@@ -54,13 +49,7 @@ a:hover {
   color: #95a5a6;
 }
 
-#try {
-  margin-top: 4em;
-  text-align: center;
-}
-
 #header-container {
-  margin-top: 4em;
   width: 100%;
 }
 
@@ -84,10 +73,29 @@ a:hover {
 
 #body-container {
   width: 100%;
+  text-align: center;
+  background-color: pink;
+}
+
+#body-container li {
+  display: inline-block;
+  margin: 0 2em 0 2em;
 }
 
 #project1 {
   border: 4px solid yellow;
-  height: 6em;
-  width: 6em;
+  height: 12em;
+  width: 12em;
+}
+
+#project2 {
+  border: 4px solid yellow;
+  height: 12em;
+  width: 12em;
+}
+
+#project3 {
+  border: 4px solid yellow;
+  height: 12em;
+  width: 12em;
 }
