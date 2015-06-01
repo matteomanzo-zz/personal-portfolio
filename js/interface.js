@@ -1,6 +1,5 @@
 $(document).ready(function() {
 	$('#about').on('click', function() {
-		$('#content-container').text(about);
+		$('#about-me').css('visibility', 'visible').slideDown(1000);
 	});
-	var about = "wozz american boy";
 });
