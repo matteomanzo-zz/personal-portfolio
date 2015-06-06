@@ -74,29 +74,48 @@ a:hover {
   margin-top: 1.25em;
 }
 
-#content-container {
-  width: 80%;
-  height: 60%;
+#slider {
+  width: 95%;
   margin: 0 auto;
-  background-color: red;
+  margin-top: 1.1em;
+  height: 88%;
+  background-color: lightgreen;
+  overflow: hidden;
 }
 
-#about {
-  
+#slider #slides {
+  display: block;
+  width: 180.15em;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0;
+  background-color: cadetblue;
 }
 
-#contact {
-  
+#slider .slide-container {
+  list-style-type: none;
+  width: 60.05em;
+  height: 100%;
+  float: left;
 }
 
-#projects {
-  
+#slider ul li p {
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 1.1em;
 }
 
 #about-me {
-  visibility: hidden;
+  background-color: greenyellow
 }
 
+#contact-me {
+  background-color: mediumaquamarine;
+}
+
+#my-projects {
+  background-color: indianred;
+}
 @media screen and (max-width: 400px) {
   #my_name {
     font-size: 3em;
