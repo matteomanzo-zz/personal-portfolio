@@ -1,12 +1,12 @@
 html, body {
   margin: 0;
   padding: 0;
+  background-color: #ABB7B7;
 }
 
 #main {
-  background-image: url(../backgrounds/2.png);
   background-position: center;
-  height: 67em;
+  height: 100%;
   margin: 0 auto;
   width: 100%;
 }
@@ -45,29 +45,28 @@ a:hover {
 
 #header-container {
   width: 100%;
+  text-align: center;
+  margin: 0 auto;
 }
 
 #my_name {
   margin: 0 auto;
+  margin-bottom: 0.5em;
   width: 40%;
-  text-align: center;
   font-family: 'Indie Flower', cursive;
-  font-size: 5em;
+  font-size: 4em;
 }
 
 #my_description{
   margin: 0 auto;
-  width: 40%;
-  height: 6em;
-  text-align: center;
   font-family: 'Indie Flower', cursive;
-  font-size: 2em;
+  font-size: 35%;
 }
 
 #body-container {
   width: 80%;
   text-align: center;
-/*  background-color: pink;*/
+  background-color: #e74c3c;
   border: 2px solid;
   margin: 0 auto;
   height: 18em;
@@ -79,22 +78,20 @@ a:hover {
   margin: 0 auto;
   margin-top: 1.1em;
   height: 88%;
-  background-color: lightgreen;
   overflow: hidden;
 }
 
 #slider #slides {
   display: block;
-  width: 180.15em;
+  width: 300%;
   height: 100%;
   margin: 0 auto;
   padding: 0;
-  background-color: cadetblue;
 }
 
 #slider .slide-container {
   list-style-type: none;
-  width: 60.05em;
+  width: 33.333%;
   height: 100%;
   float: left;
 }
@@ -102,11 +99,12 @@ a:hover {
 #slider ul li p {
   width: 95%;
   margin: 0 auto;
-  margin-top: 1.1em;
+  margin-top: 1.9%;
 }
 
 #about-me {
-  background-color: greenyellow
+  font-family: 'Indie Flower', cursive;
+  font-size: 1.5em;
 }
 
 #contact-me {
