@@ -1,7 +1,8 @@
 html, body {
   margin: 0;
   padding: 0;
-  background-color: #ABB7B7;
+  background-color: #CDEDF6;
+  color: #042A2B;
 }
 
 #main {
@@ -66,8 +67,9 @@ a:hover {
 #body-container {
   width: 80%;
   text-align: center;
-  background-color: #e74c3c;
+  background-color: #5EB1BF;
   border: 2px solid;
+  border-radius: 25px;
   margin: 0 auto;
   height: 18em;
   margin-top: 1.25em;
