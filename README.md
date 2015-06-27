@@ -1,1 +1,1 @@
-My personal website (WORK IN PROGRESS)
+My personal website - WORK IN PROGRESS
